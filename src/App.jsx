@@ -111,7 +111,7 @@ const Home = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Make it relative to position ScoreShow */
+  position: relative; 
 `;
 
 const Background = styled.div`
@@ -162,13 +162,13 @@ const Startboard = styled.div`
 `;
 
 const ScoreShow = styled.div`
-  position: absolute; /* Make it absolute */
-  top: 10px; /* Position it at the top */
-  left: 50%; /* Center it horizontally */
-  transform: translateX(-50%); /* Adjust for centering */
+  position: absolute;
+  top: 10px; 
+  left: 50%; 
+  transform: translateX(-50%); 
   color: white;
   background: transparent;
   font-size: 30px; 
-  font-weight: bold; /* Change to bold for better visibility */
+  font-weight: bold; 
   margin: 10px;
 `;
